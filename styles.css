@@ -1,0 +1,39 @@
+/* Logo section */
+.logo {
+    color: red;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-name {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+/* Nav Link section */
+.navlink {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.navlink>a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.navlink>a:hover {
+    color: rgb(4, 159, 231);
+    scale: 115%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-image: linear-gradient(to bottom right, rgb(150, 252, 175), rgb(234, 161, 241));
+}
